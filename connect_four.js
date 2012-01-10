@@ -6,7 +6,7 @@ var width = blockWidth * numCols;
 var height = blockHeight * numRows;
 var lineLength = 4;
 
-Piece = {Empty : 0, PlayerOne : 1, PlayerTwo : 2};
+var Piece = {Empty : 0, PlayerOne : 1, PlayerTwo : 2};
 
 var turn;
 var gameOver;
